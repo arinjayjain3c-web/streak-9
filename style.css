@@ -24,7 +24,7 @@ nav {
 }
 
 nav a {
-  margin: 0 12px;
+  
   text-decoration: underline;
   color: #333;
   font-weight: bold;
@@ -73,7 +73,7 @@ footer {
   padding: 10px;
   background-color: rgb(226, 103, 233);
   max-width: 1000px;
-  margin: auto;
+  
 }
 
 #button {
@@ -133,5 +133,8 @@ h1::first-letter {
     max-width: 100%;
   }
   p { line-height: 1.6; }
-
+  nav a {
+  display: inline-block;
+  margin: 8px 10px;
 }
+}  
